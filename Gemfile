@@ -36,9 +36,6 @@ gem 'jbuilder', '2.5.0'
 # Use Twitter Bootstrap library for front-end UI and layout
 gem 'bootstrap-sass', '3.3.7'
 
-# Compatibility of several gems
-gem 'thor', '1.1.0'
-
 # Use Font Awesome sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
@@ -52,7 +49,7 @@ gem 'devise', '4.2.0'
 gem 'stripe', '1.48.0'
 
 # Use Figaro for ENV variables
-gem 'figaro', '1.2.0'
+gem 'figaro', '1.1.1'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
